@@ -19,8 +19,9 @@ This project is intended for learning/demonstration of classic algorithms in an 
 3) Run the demo scenario.
 
 ```powershell
-python -m venv .venv
-.\.venv\Scripts\Activate.ps1
+pip install uv
+uv sync
+source .\.venv\Scripts\Activate.ps1
 pip install -r requirements.txt
 
 # one-shot demo
